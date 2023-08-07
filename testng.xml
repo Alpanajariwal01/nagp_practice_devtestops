@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" >
+	<test thread-count="2"  name="Test">
+		
+		<!--<parameter name ="author" value="demo99" />
+		<parameter name ="searchkey" value="India" />
+		
+		 <groups>
+			<run>
+				<include name="Sanity"></include>
+			</run><class name="tests.LoginTest"/>  
+			<class name="tests.AddToCartTest"/>  
+			<class name="tests.SignUpTest"/>  
+			<class name="tests.CheckoutTest"/> 
+			<class name="tests.SearchTest"/> 
+		</groups> -->
+		<classes> 
+			<class name="tests.LoginTest"/>  
+			<class name="tests.AddToCartTest"/>  
+			<class name="tests.SignUpTest"/>  
+			<class name="tests.CheckoutTest"/> 
+			<class name="tests.SearchTest"/>  
+             <class name="tests.LoginTest"/>  
+	   </classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
